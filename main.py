@@ -9,9 +9,6 @@ from tkinter import messagebox
 import pyperclip
 import json
 
-
-
-# ---------------------------- PASSWORD GENERATOR ------------------------------- #
 # Generate Password
 def generate_password():
     password = []
@@ -24,7 +21,7 @@ def generate_password():
     password_entry.insert(index=0, string=password)
 
 
-# ---------------------------- SEARCH PASSWORD ------------------------------- #
+# Search Password
 def search():
     try:
         # search key in json file and return the value
@@ -45,7 +42,7 @@ def search():
 
 
 
-# ---------------------------- SAVE PASSWORD ------------------------------- #
+# Save Password
 
 def save():
     website = website_entry.get()
@@ -89,8 +86,7 @@ def save():
             website_entry.delete(0, END)
             password_entry.delete(0, END)
 
-# ---------------------------- UI SETUP ------------------------------- #
-
+# UI setup using Tkinter
 # Create a window
 window = Tk()
 window.title("Password Manager. Created by Dwi Didit Prasetiyo")
