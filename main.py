@@ -119,7 +119,7 @@ email_label.grid(row=2, column=0)
 # Create a entry
 email_entry = Entry(width=35)
 email_entry.grid(row=2, column=1, columnspan=2)
-email_entry.insert(index=0, string="didit@dwidi.com")
+email_entry.insert(index=0, string="name@domain.com")
 
 password_label = Label(text="Password:")
 password_label.grid(row=3, column=0)
