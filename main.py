@@ -1,8 +1,6 @@
 # Welcome to Password Manager. Created by Dwi Didit Prasetiyo
 
 from tkinter import *
-from typing import TextIO
-
 from data import alphabet, symbols, numbers
 import random
 from tkinter import messagebox
